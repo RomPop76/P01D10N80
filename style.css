@@ -58,5 +58,17 @@ header div:nth-child(4):hover {
 
 nav {
     background-color: black;
-    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: block;
+}
+
+nav ul li a {
+    font-size: 26px;
+    color: white;
 }
