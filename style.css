@@ -89,15 +89,35 @@ nav ul li a:hover {
     border-color: yellow;
 }
 
+div.blog {
+    margin-top: 40px;
+}
+
 main {
     float: left;
     width: 65%;
+    padding: 0 20px 0 20px;
+}
+
+article img {
+    width: 200px;
+    float: left;
+    margin: 20px 20px 20px 0;
+}
+
+article h1 {
+    text-transform: uppercase;
+}
+
+article p {
+    margin-top: 20px;
 }
 
 aside {
     background-color: darkgreen;
     float: left;
     width: 35%;
+    height: 200px;
 }
 
 footer {
